@@ -172,12 +172,11 @@ body{
 }
 
 .hero-stats{
-    display: flex;             /* Flexbox activate kora holo */
-    justify-content: center;    /* Horizontally card-guloke center-e anbe */
-    align-items: center;        /* Vertically alignment thik korbe */
-    gap: 24px;                 /* Protiti card-er majhkhane distance */
-    margin: 50px auto;         /* Upore-niche margin ebong horizontally auto-center */
-    max-width: 1200px;         /* Content-er boro thakar simana */
+    display: flex;            
+    justify-content: center;    
+    align-items: center;         
+    margin: 50px auto;         
+    max-width: 1200px;         
     padding: 0 20px;
     
 }
@@ -341,4 +340,54 @@ body{
 .host-tag img:hover{
     background-color: #1a73e8;
     transition: .1s;
+}
+
+.footer-section{
+    background-image: url(assets/footer-bg.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    height: 412px;
+    margin-top: 50px;
+}
+.foot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+    gap: 30px;
+}
+.foot-tittle h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.foot-tittle .text{
+    color:#ff4ecd;
+}
+.footer-img{
+    display: flex;
+    padding-top:70px ;
+    gap: 10px;
+    font-size: 13px;
+    color: grey;
+}
+.footer-img img{
+    max-width: 100%;
+    margin: 0;
+}
+
+.footer-img img:hover{
+    background-color:#1a0b36;
+    border-radius: 20px;
+    transition: ease-out .5s;
+}
+.footer-text{
+    color: gray;
+    font-size: 14px;
+    padding-top: 20px;
 }
