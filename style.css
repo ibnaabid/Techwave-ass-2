@@ -62,8 +62,10 @@ body{
     cursor: pointer;
 }
 .button:hover{
-    color: aqua;
-    background-color: #ab7221;
+    color: black;
+    border-radius: 5%;
+    transition: .7s;
+    
 }
 .hero-container{
     min-height: 100vh;
@@ -122,6 +124,11 @@ body{
     margin-right: 10px;
     cursor: pointer;
 }
+.primary:hover{
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+}
 
 .primary img{
     width: 18px;
@@ -137,7 +144,11 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-
+.secondary:hover{
+    color: blanchedalmond;
+    background-color: #270d57;
+    transition: .5s;
+}
 .secondary img{
     width: 18px;
     margin-right: 6px;
@@ -146,51 +157,46 @@ body{
 .hero-content{
     max-width: 1200px;
     margin: 80px auto;
-    display: flex;
-    gap: 40px;
+    height: 500px;
+    border: 1px solid #270d57;
+    padding:50px 200px 120px 200px;
     text-align: center;
-    align-items: center;
 }
 
 .hero-text{
-    flex: 1;
+    text-align: center;
 }
 
 .hero-text h1{
     margin-bottom: 20px;
+    color: white;
 }
 
 .hero-text p{
     font-size: 14px;
     line-height: 1.6;
-    color: #cfcfcf;
+    color: grey;
 }
-
 .hero-card{
-    display: flex;
-    align-items: center;
+    max-width: 1200px;
+    height: 93px;
 }
 
 .hero-stats{
-    display: flex;            
-    justify-content: center;    
-    align-items: center;         
-    margin: 50px auto;         
-    max-width: 1200px;         
-    padding: 0 20px;
-    
+    display: flex;
+    gap: 50px;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 .hero-rate h2{
     color: #00ffc0;
-    font-size: 32px;
-    margin-bottom: 10px;
-    border-bottom: 3px solid #1a73e8; 
-    padding-bottom: 4px;
+    font: 40px;
 }
-
 .hero-rate p{
-    font-size: 11px;
-    letter-spacing: 1px;
+    color: grey;
+    font-size: 15px;
 }
 
 .tech-tittle{
@@ -214,7 +220,14 @@ body{
     border-radius: 30px;
     padding: 40px;
     gap: 20px;
+    display: grid;
+    grid-row: span 2;
     justify-content: center;
+}
+.card:hover{
+    background-color: #7c5abd;
+    color: black;
+    transition: .5s;
 }
 .card h3{
     color: white;
@@ -226,9 +239,10 @@ body{
     font-size: 13px;
 }
 
-.card {
-    display: grid;
-    grid-row: span 2;
+.card img{
+    max-width: 50%;
+    height: 50%;
+    
 }
 
 .video-player{
