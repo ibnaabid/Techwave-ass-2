@@ -413,7 +413,7 @@ body{
     padding-top: 20px;
 }
 
-@media (min-width:576px) {
+@media (max-width:576px){
     .item ,.button{
         display: none;
     }
