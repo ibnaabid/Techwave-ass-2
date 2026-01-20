@@ -412,3 +412,76 @@ body{
     font-size: 14px;
     padding-top: 20px;
 }
+
+@media (min-width:576px) {
+    .item ,.button{
+        display: none;
+    }
+    .hero-container{
+        padding: 20px 0;
+    }
+    .hero-content {
+        padding: 95px 20px 0;
+        
+    }
+    .hero-stats{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 40px;
+    }
+    .feature-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 95px 20px 0;
+        width: 400px;
+        align-items: center;
+        
+    }
+    .video-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 400px;
+        padding: 20px;
+    }
+    .video-card{
+        padding: auto;
+    }
+    .feat-tittle{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .Host-container{
+        width: 500px;
+        padding: 20px 0 20px 40px;
+        height: auto;
+    }
+    .host-card{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .host-tag{
+        padding: 20px 0;
+    }
+    .host-tag img{
+        padding: 10px;
+        background-color: #322847;
+        
+    }
+    .footer-section{
+        width: 600px;
+        height: auto;
+        
+    }
+
+    .footer-img{
+        justify-content: center;
+        
+    }
+    .footer-img img{
+        max-width: 100%;
+    }
+    .footer-text{
+        padding-bottom: 20px;
+    }
+}
